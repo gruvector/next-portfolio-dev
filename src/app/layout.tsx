@@ -1,6 +1,6 @@
 import '../components/ui/globals.css';
-import { Roboto } from '@next/font/google';
 import type { Metadata } from 'next';
+import { Roboto } from 'next/font/google';
 import { ReactNode } from 'react';
 import config from '../data/config';
 
