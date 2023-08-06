@@ -23,7 +23,7 @@
     "yup": "^1.2.0"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "4.0.1",
+    "@graphql-codegen/cli": "5.0.0",
     "@octokit/graphql-schema": "14.26.1",
     "@types/eslint": "8.44.2",
     "@types/node": "20.4.8",
