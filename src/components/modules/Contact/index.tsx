@@ -2,7 +2,11 @@ import Image from 'next/image';
 import ContactForm from './ContactForm';
 
 const Contact = () => (
-  <div className="container py-16 flex items-start justify-between flex-col lg:flex-row" id="contact">
+  <div
+    className="container py-16 flex items-start justify-between flex-col lg:flex-row"
+    id="contact"
+    data-test-id="contact"
+  >
     <div className="flex-none w-full lg:w-auto lg:flex-1 pr-0 lg:pr-8 order-2 lg:order-1">
       <ContactForm />
     </div>

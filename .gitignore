@@ -35,3 +35,7 @@ yarn-error.log*
 
 .eslintcache
 *.tsbuildinfo
+
+/playwright/test-results/
+/playwright/report/
+/playwright/.cache/

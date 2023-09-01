@@ -4,7 +4,7 @@ import Header from '../../../components/ui/theme/Header';
 
 const Intro = () => (
   <div
-    data-cy="intro"
+    data-test-id="intro"
     className="bg-[url('/assets/illustrations/overlay.svg')] bg-contain bg-right-top bg-no-repeat pb-16"
   >
     <Header />

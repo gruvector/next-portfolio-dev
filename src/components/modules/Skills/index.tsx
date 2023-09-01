@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Skills = () => (
   <div
-    data-cy="skills"
+    data-test-id="about"
     className="bg-[url('/assets/illustrations/details.svg')] bg-contain bg-no-repeat bg-left-top"
     id="about"
   >
@@ -17,10 +17,12 @@ const Skills = () => (
         />
       </div>
       <div className="flex-none lg:flex-1 pl-0 lg:pl-8">
-        <h2 className="mb-8 text-3xl font-bold text-brand-primary dark:text-white typography">More about me</h2>
+        <h2 className="mb-8 text-3xl font-bold text-brand-primary dark:text-white typography">
+          More about me
+        </h2>
         <p className="mb-[2.5rem] font-normal text-xl md:text-[26px] text-brand-secondary dark:text-slate-200 leading-[34px] typography">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
-          standard dummy.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry’s standard dummy.
         </p>
         <Link href="#contact" className="button button-primary">
           Hire me
