@@ -42,10 +42,10 @@ dependencies:
 devDependencies:
   '@graphql-codegen/cli':
     specifier: 5.0.0
-    version: 5.0.0(@types/node@20.5.7)(graphql@16.7.1)
+    version: 5.0.0(@types/node@20.5.9)(graphql@16.7.1)
   '@octokit/graphql-schema':
-    specifier: 14.27.2
-    version: 14.27.2
+    specifier: 14.27.3
+    version: 14.27.3
   '@playwright/test':
     specifier: ^1.37.0
     version: 1.37.0
@@ -53,8 +53,8 @@ devDependencies:
     specifier: 8.44.2
     version: 8.44.2
   '@types/node':
-    specifier: 20.5.7
-    version: 20.5.7
+    specifier: 20.5.9
+    version: 20.5.9
   '@types/react':
     specifier: 18.2.21
     version: 18.2.21
@@ -75,7 +75,7 @@ devDependencies:
     version: 8.48.0
   eslint-config-upleveled:
     specifier: 5.0.4
-    version: 5.0.4(@babel/eslint-parser@7.22.10)(@next/eslint-plugin-next@13.4.17)(@types/eslint@8.44.2)(@types/node@20.5.7)(@types/react-dom@18.2.7)(@types/react@18.2.21)(@typescript-eslint/eslint-plugin@6.4.0)(@typescript-eslint/parser@6.4.0)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.28.0)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.1)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.20.0)(eslint-plugin-testing-library@5.11.1)(eslint-plugin-unicorn@48.0.1)(eslint-plugin-upleveled@2.1.8)(eslint@8.48.0)(typescript@5.2.2)
+    version: 5.0.4(@babel/eslint-parser@7.22.10)(@next/eslint-plugin-next@13.4.17)(@types/eslint@8.44.2)(@types/node@20.5.9)(@types/react-dom@18.2.7)(@types/react@18.2.21)(@typescript-eslint/eslint-plugin@6.4.0)(@typescript-eslint/parser@6.4.0)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.28.0)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.1)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.20.0)(eslint-plugin-testing-library@5.11.1)(eslint-plugin-unicorn@48.0.1)(eslint-plugin-upleveled@2.1.8)(eslint@8.48.0)(typescript@5.2.2)
   postcss:
     specifier: 8.4.29
     version: 8.4.29
@@ -418,7 +418,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@graphql-codegen/cli@5.0.0(@types/node@20.5.7)(graphql@16.7.1):
+  /@graphql-codegen/cli@5.0.0(@types/node@20.5.9)(graphql@16.7.1):
     resolution: {integrity: sha512-A7J7+be/a6e+/ul2KI5sfJlpoqeqwX8EzktaKCeduyVKgOLA6W5t+NUGf6QumBDXU8PEOqXk3o3F+RAwCWOiqA==}
     hasBin: true
     peerDependencies:
@@ -436,12 +436,12 @@ packages:
       '@graphql-tools/apollo-engine-loader': 8.0.0(graphql@16.7.1)
       '@graphql-tools/code-file-loader': 8.0.2(graphql@16.7.1)
       '@graphql-tools/git-loader': 8.0.2(graphql@16.7.1)
-      '@graphql-tools/github-loader': 8.0.0(@types/node@20.5.7)(graphql@16.7.1)
+      '@graphql-tools/github-loader': 8.0.0(@types/node@20.5.9)(graphql@16.7.1)
       '@graphql-tools/graphql-file-loader': 8.0.0(graphql@16.7.1)
       '@graphql-tools/json-file-loader': 8.0.0(graphql@16.7.1)
       '@graphql-tools/load': 8.0.0(graphql@16.7.1)
-      '@graphql-tools/prisma-loader': 8.0.1(@types/node@20.5.7)(graphql@16.7.1)
-      '@graphql-tools/url-loader': 8.0.0(@types/node@20.5.7)(graphql@16.7.1)
+      '@graphql-tools/prisma-loader': 8.0.1(@types/node@20.5.9)(graphql@16.7.1)
+      '@graphql-tools/url-loader': 8.0.0(@types/node@20.5.9)(graphql@16.7.1)
       '@graphql-tools/utils': 10.0.4(graphql@16.7.1)
       '@whatwg-node/fetch': 0.8.8
       chalk: 4.1.2
@@ -449,7 +449,7 @@ packages:
       debounce: 1.2.1
       detect-indent: 6.1.0
       graphql: 16.7.1
-      graphql-config: 5.0.2(@types/node@20.5.7)(graphql@16.7.1)
+      graphql-config: 5.0.2(@types/node@20.5.9)(graphql@16.7.1)
       inquirer: 8.2.6
       is-glob: 4.0.3
       jiti: 1.19.1
@@ -577,7 +577,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@graphql-tools/executor-http@1.0.2(@types/node@20.5.7)(graphql@16.7.1):
+  /@graphql-tools/executor-http@1.0.2(@types/node@20.5.9)(graphql@16.7.1):
     resolution: {integrity: sha512-JKTB4E3kdQM2/1NEcyrVPyQ8057ZVthCV5dFJiKktqY9IdmF00M8gupFcW3jlbM/Udn78ickeUBsUzA3EouqpA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -588,7 +588,7 @@ packages:
       '@whatwg-node/fetch': 0.9.9
       extract-files: 11.0.0
       graphql: 16.7.1
-      meros: 1.3.0(@types/node@20.5.7)
+      meros: 1.3.0(@types/node@20.5.9)
       tslib: 2.6.1
       value-or-promise: 1.0.12
     transitivePeerDependencies:
@@ -643,14 +643,14 @@ packages:
       - supports-color
     dev: true
 
-  /@graphql-tools/github-loader@8.0.0(@types/node@20.5.7)(graphql@16.7.1):
+  /@graphql-tools/github-loader@8.0.0(@types/node@20.5.9)(graphql@16.7.1):
     resolution: {integrity: sha512-VuroArWKcG4yaOWzV0r19ElVIV6iH6UKDQn1MXemND0xu5TzrFme0kf3U9o0YwNo0kUYEk9CyFM0BYg4he17FA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       '@ardatan/sync-fetch': 0.0.1
-      '@graphql-tools/executor-http': 1.0.2(@types/node@20.5.7)(graphql@16.7.1)
+      '@graphql-tools/executor-http': 1.0.2(@types/node@20.5.9)(graphql@16.7.1)
       '@graphql-tools/graphql-tag-pluck': 8.0.2(graphql@16.7.1)
       '@graphql-tools/utils': 10.0.4(graphql@16.7.1)
       '@whatwg-node/fetch': 0.9.9
@@ -744,13 +744,13 @@ packages:
       tslib: 2.6.1
     dev: true
 
-  /@graphql-tools/prisma-loader@8.0.1(@types/node@20.5.7)(graphql@16.7.1):
+  /@graphql-tools/prisma-loader@8.0.1(@types/node@20.5.9)(graphql@16.7.1):
     resolution: {integrity: sha512-bl6e5sAYe35Z6fEbgKXNrqRhXlCJYeWKBkarohgYA338/SD9eEhXtg3Cedj7fut3WyRLoQFpHzfiwxKs7XrgXg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/url-loader': 8.0.0(@types/node@20.5.7)(graphql@16.7.1)
+      '@graphql-tools/url-loader': 8.0.0(@types/node@20.5.9)(graphql@16.7.1)
       '@graphql-tools/utils': 10.0.4(graphql@16.7.1)
       '@types/js-yaml': 4.0.5
       '@types/json-stable-stringify': 1.0.34
@@ -790,7 +790,7 @@ packages:
       value-or-promise: 1.0.12
     dev: true
 
-  /@graphql-tools/url-loader@8.0.0(@types/node@20.5.7)(graphql@16.7.1):
+  /@graphql-tools/url-loader@8.0.0(@types/node@20.5.9)(graphql@16.7.1):
     resolution: {integrity: sha512-rPc9oDzMnycvz+X+wrN3PLrhMBQkG4+sd8EzaFN6dypcssiefgWKToXtRKI8HHK68n2xEq1PyrOpkjHFJB+GwA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -799,7 +799,7 @@ packages:
       '@ardatan/sync-fetch': 0.0.1
       '@graphql-tools/delegate': 10.0.1(graphql@16.7.1)
       '@graphql-tools/executor-graphql-ws': 1.1.0(graphql@16.7.1)
-      '@graphql-tools/executor-http': 1.0.2(@types/node@20.5.7)(graphql@16.7.1)
+      '@graphql-tools/executor-http': 1.0.2(@types/node@20.5.9)(graphql@16.7.1)
       '@graphql-tools/executor-legacy-ws': 1.0.1(graphql@16.7.1)
       '@graphql-tools/utils': 10.0.4(graphql@16.7.1)
       '@graphql-tools/wrap': 10.0.0(graphql@16.7.1)
@@ -1017,8 +1017,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@octokit/graphql-schema@14.27.2:
-    resolution: {integrity: sha512-Iczh8dLseBPR4zOUnAZHVWZiHF85PoXy1fXgPzA5hsx72RGpCg78kSyReACOxpIJXTtnFU8rg95bdTPKQSX0Hg==}
+  /@octokit/graphql-schema@14.27.3:
+    resolution: {integrity: sha512-EkRpOOMUHPsiH7UBKDCUUU75ywTAx8nnkJ+kcB4AWTAKBIwmS/VfPMlmLukz6g9cZdk0UznLXQyD4M09qB/XbQ==}
     dependencies:
       graphql: 16.7.1
       graphql-tag: 2.12.6(graphql@16.7.1)
@@ -1067,7 +1067,7 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      '@types/node': 20.5.7
+      '@types/node': 20.5.9
       playwright-core: 1.37.0
     optionalDependencies:
       fsevents: 2.3.2
@@ -1131,8 +1131,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node@20.5.7:
-    resolution: {integrity: sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==}
+  /@types/node@20.5.9:
+    resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1174,13 +1174,13 @@ packages:
   /@types/sharp@0.31.1:
     resolution: {integrity: sha512-5nWwamN9ZFHXaYEincMSuza8nNfOof8nmO+mcI+Agx1uMUk4/pQnNIcix+9rLPXzKrm1pS34+6WRDbDV0Jn7ag==}
     dependencies:
-      '@types/node': 20.5.7
+      '@types/node': 20.5.9
     dev: true
 
   /@types/ws@8.5.5:
     resolution: {integrity: sha512-lwhs8hktwxSjf9UaZ9tG5M03PGogvFaH8gUgLNbN9HKIg0dvv6q+gkSuJ8HN4/VbyxkuLzCjlN7GquQ0gUJfIg==}
     dependencies:
-      '@types/node': 20.5.7
+      '@types/node': 20.5.9
     dev: true
 
   /@typescript-eslint/eslint-plugin@6.4.0(@typescript-eslint/parser@6.4.0)(eslint@8.48.0)(typescript@5.2.2):
@@ -1386,7 +1386,7 @@ packages:
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
       '@typescript-eslint/types': 6.4.0
-      eslint-visitor-keys: 3.4.2
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /@whatwg-node/events@0.0.3:
@@ -2340,7 +2340,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-upleveled@5.0.4(@babel/eslint-parser@7.22.10)(@next/eslint-plugin-next@13.4.17)(@types/eslint@8.44.2)(@types/node@20.5.7)(@types/react-dom@18.2.7)(@types/react@18.2.21)(@typescript-eslint/eslint-plugin@6.4.0)(@typescript-eslint/parser@6.4.0)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.28.0)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.1)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.20.0)(eslint-plugin-testing-library@5.11.1)(eslint-plugin-unicorn@48.0.1)(eslint-plugin-upleveled@2.1.8)(eslint@8.48.0)(typescript@5.2.2):
+  /eslint-config-upleveled@5.0.4(@babel/eslint-parser@7.22.10)(@next/eslint-plugin-next@13.4.17)(@types/eslint@8.44.2)(@types/node@20.5.9)(@types/react-dom@18.2.7)(@types/react@18.2.21)(@typescript-eslint/eslint-plugin@6.4.0)(@typescript-eslint/parser@6.4.0)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.28.0)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.1)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.20.0)(eslint-plugin-testing-library@5.11.1)(eslint-plugin-unicorn@48.0.1)(eslint-plugin-upleveled@2.1.8)(eslint@8.48.0)(typescript@5.2.2):
     resolution: {integrity: sha512-il4vpPE7htSV2wzB20rCCj2IQcpnDfY3dS5NIrEtKltFpVsRq5XIwY2MB3MIyfr2gk4SH2l2bqM64ww+RM/LXg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -2370,7 +2370,7 @@ packages:
       '@babel/eslint-parser': 7.22.10(@babel/core@7.22.9)(eslint@8.48.0)
       '@next/eslint-plugin-next': 13.4.17
       '@types/eslint': 8.44.2
-      '@types/node': 20.5.7
+      '@types/node': 20.5.9
       '@types/react': 18.2.21
       '@types/react-dom': 18.2.7
       '@typescript-eslint/eslint-plugin': 6.4.0(@typescript-eslint/parser@6.4.0)(eslint@8.48.0)(typescript@5.2.2)
@@ -3124,7 +3124,7 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /graphql-config@5.0.2(@types/node@20.5.7)(graphql@16.7.1):
+  /graphql-config@5.0.2(@types/node@20.5.9)(graphql@16.7.1):
     resolution: {integrity: sha512-7TPxOrlbiG0JplSZYCyxn2XQtqVhXomEjXUmWJVSS5ET1nPhOJSsIb/WTwqWhcYX6G0RlHXSj9PLtGTKmxLNGg==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
@@ -3138,7 +3138,7 @@ packages:
       '@graphql-tools/json-file-loader': 8.0.0(graphql@16.7.1)
       '@graphql-tools/load': 8.0.0(graphql@16.7.1)
       '@graphql-tools/merge': 9.0.0(graphql@16.7.1)
-      '@graphql-tools/url-loader': 8.0.0(@types/node@20.5.7)(graphql@16.7.1)
+      '@graphql-tools/url-loader': 8.0.0(@types/node@20.5.9)(graphql@16.7.1)
       '@graphql-tools/utils': 10.0.4(graphql@16.7.1)
       cosmiconfig: 8.2.0
       graphql: 16.7.1
@@ -3881,7 +3881,7 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /meros@1.3.0(@types/node@20.5.7):
+  /meros@1.3.0(@types/node@20.5.9):
     resolution: {integrity: sha512-2BNGOimxEz5hmjUG2FwoxCt5HN7BXdaWyFqEwxPTrJzVdABtrL4TiHTcsWSFAxPQ/tOnEaQEJh3qWq71QRMY+w==}
     engines: {node: '>=13'}
     peerDependencies:
@@ -3890,7 +3890,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 20.5.7
+      '@types/node': 20.5.9
     dev: true
 
   /micromatch@4.0.5:

@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "5.0.0",
-    "@octokit/graphql-schema": "14.27.2",
+    "@octokit/graphql-schema": "14.27.3",
     "@playwright/test": "^1.37.0",
     "@types/eslint": "8.44.2",
-    "@types/node": "20.5.7",
+    "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "@types/react-google-recaptcha": "2.1.5",
