@@ -9,7 +9,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.USER_GITHUB_TOKEN }}
       NEXT_PUBLIC_FORM: ${{ secrets.NEXT_PUBLIC_FORM }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
         with:
           version: 'latest'
