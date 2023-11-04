@@ -34,7 +34,7 @@
     "@types/sharp": "0.31.1",
     "autoprefixer": "^10.4.14",
     "eslint": "8.48.0",
-    "eslint-config-upleveled": "5.0.4",
+    "eslint-config-upleveled": "6.1.2",
     "postcss": "8.4.29",
     "stylelint": "15.10.3",
     "stylelint-config-upleveled": "1.0.2",
