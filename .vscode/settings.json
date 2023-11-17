@@ -1,15 +1,12 @@
 {
-  "editor.formatOnSave": true,
-  "prettier.tabWidth": 2,
-  "prettier.useTabs": true,
-  "editor.tabSize": 2,
-  "typescript.suggest.autoImports": true,
-  "typescript.suggest.paths": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.detectIndentation": false,
-  "editor.insertSpaces": false,
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  // Ignore unknown CSS at rules for Tailwind CSS
+  "css.lint.unknownAtRules": "ignore",
+  // Enable Stylelint in javascript and typescriptreact (for CSS-in-JS) and scss
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "postcss",
+    "javascript",
+    "typescriptreact"
+  ]
 }

@@ -2,12 +2,14 @@
   "name": "portfolio-next",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev -p 3040",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev -p 3040",
+    "gen": "graphql-codegen --config codegen.yml",
     "lint": "next lint",
-    "gen": "graphql-codegen --config codegen.yml"
+    "prepare": "pnpm gen",
+    "start": "next start"
   },
   "dependencies": {
     "@formspree/react": "^2.5.0",
@@ -24,6 +26,8 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "5.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
     "@octokit/graphql-schema": "14.40.1",
     "@playwright/test": "^1.37.0",
     "@types/eslint": "8.44.6",
@@ -34,7 +38,7 @@
     "@types/sharp": "0.31.1",
     "autoprefixer": "^10.4.14",
     "eslint": "8.53.0",
-    "eslint-config-upleveled": "6.1.2",
+    "eslint-config-upleveled": "7.1.0",
     "postcss": "8.4.31",
     "stylelint": "15.11.0",
     "stylelint-config-upleveled": "1.0.2",
