@@ -23351,6 +23351,8 @@ export type SponsorsActivity = Node & {
   /** The sponsor's current privacy level. */
   currentPrivacyLevel?: Maybe<SponsorshipPrivacy>;
   id: Scalars['ID']['output'];
+  /** The platform that was used to pay for the sponsorship. */
+  paymentSource?: Maybe<SponsorshipPaymentSource>;
   /** The tier that the sponsorship used to use, for tier change events. */
   previousSponsorsTier?: Maybe<SponsorsTier>;
   /** The user or organization who triggered this activity and was/is sponsoring the sponsorable. */
@@ -24151,6 +24153,8 @@ export type Sponsorship = Node & {
    * @deprecated `Sponsorship.maintainer` will be removed. Use `Sponsorship.sponsorable` instead. Removal on 2020-04-01 UTC.
    */
   maintainer: User;
+  /** The platform that was most recently used to pay for the sponsorship. */
+  paymentSource?: Maybe<SponsorshipPaymentSource>;
   /** The privacy level for this sponsorship. */
   privacyLevel: SponsorshipPrivacy;
   /**
@@ -24262,6 +24266,14 @@ export type SponsorshipOrder = {
 export enum SponsorshipOrderField {
   /** Order sponsorship by creation time. */
   CreatedAt = 'CREATED_AT'
+}
+
+/** How payment was made for funding a GitHub Sponsors sponsorship. */
+export enum SponsorshipPaymentSource {
+  /** Payment was made through GitHub. */
+  Github = 'GITHUB',
+  /** Payment was made through Patreon. */
+  Patreon = 'PATREON'
 }
 
 /** The privacy of a sponsorship */
