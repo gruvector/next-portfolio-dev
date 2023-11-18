@@ -41,3 +41,4 @@ yarn-error.log*
 /playwright/.cache/
 
 src/generated/graphql.ts
+v8-compile-cache-0/
