@@ -9,7 +9,5 @@ jobs:
     steps:
       - name: Pull latest Preflight image
         run: docker pull ghcr.io/upleveled/preflight
-      - name: Restore any changes in generated types in src/generated/graphql.ts
-        run: git restore src/generated/graphql.ts
       - name: Run Preflight
         run: docker run ghcr.io/upleveled/preflight https://github.com/${{ github.repository}} ${{ github.ref_name }}

@@ -1,0 +1,38 @@
+name: Lint, Check Types, Build
+on: push
+
+jobs:
+  lint-check-types-and-build:
+    name: Lint, Check Types, Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Disable configuring $GITHUB_TOKEN in local git config
+          persist-credentials: false
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 'latest'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install
+      # Commit any changes to src/generated/graphql.ts
+      - name: Commit changes to graphql-codegen types
+        run: |
+          git add src/generated/graphql.ts
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit, exiting"
+            exit 0
+          fi
+
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git config user.name github-actions[bot]
+
+          git commit -m "Update generated graphql-codegen types"
+
+          # Credit for oauth2 syntax is the ad-m/github-push-action GitHub Action:
+          # https://github.com/ad-m/github-push-action/blob/d91a481090679876dfc4178fef17f286781251df/start.sh#L43-L55
+          git push https://oauth2:${{ secrets.GRAPHQL_CODEGEN_TYPES_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
