@@ -1,9 +1,9 @@
-name: Lint, Check Types, Build
+name: Update graphql-codegen types
 on: push
 
 jobs:
-  lint-check-types-and-build:
-    name: Lint, Check Types, Build
+  update-graphql-codegen-types:
+    name: Update graphql-codegen types
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
